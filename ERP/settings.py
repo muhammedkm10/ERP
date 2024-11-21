@@ -27,7 +27,11 @@ SECRET_KEY = "django-insecure-(f%ae-2e#6pxsed_ja3*gi*dy97di#kh*6-(-ikiv4cszi@%ns
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Backend.onrender.com']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'erp-oup1.onrender.com',  # Add your Render domain here
+]
 
 
 # Application definition
