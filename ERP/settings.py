@@ -30,7 +30,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'erp-oup1.onrender.com',  # Add your Render domain here
+    "*",
 ]
 
 
